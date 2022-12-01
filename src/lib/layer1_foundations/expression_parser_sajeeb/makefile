@@ -13,7 +13,9 @@ TARGET_OBJECT_FILES = main.o \
 						./Visitors/ExpansionVisitors/*.o \
 						./Visitors/CopyVisitors/*.o \
 						./Visitors/PrintVisitors/*.o \
-						./Visitors/ReductionVisitors/*.o
+						./Visitors/ReductionVisitors/*.o \
+						./Visitors/EvaluateVisitors/*.o
+
 
 TEX_FILES = $(wildcard visitor_result/*.tex)
 EXECUTABLE_BINARY = main
